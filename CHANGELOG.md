@@ -21,9 +21,17 @@ All notable changes to the Ultimate Inserters mod will be documented in this fil
   - All inserters now have filtering capability by default in Factorio 2.0
 
 ### Added
-- Both remaining inserters now have `filter_count = 5` (5 filter slots)
+- Both base inserters now have `filter_count = 5` (5 filter slots)
 - Added `allow_custom_vectors = true` to support near/far item placement customization
 - Created migration script for upgrading from 0.17.x saves
+- **Space Age DLC support** - Automatically includes Space Age science packs when DLC is active
+- **2 New Space Age Stack Inserters** - Create stacks of items on belts for maximum throughput
+  - Ultimate stack inserter (`max_belt_stack_size = 4`)
+  - Ultimate long stack inserter (`max_belt_stack_size = 4`)
+  - Only available when Space Age DLC is active
+  - More expensive to craft (requires base inserter + additional materials)
+- Fixed all old migration scripts to work with 2.0 (removed references to deleted recipes)
+- Removed non-functional settings.lua file
 
 ### Features
 The mod now provides **2 ultra-fast inserters** instead of 4:

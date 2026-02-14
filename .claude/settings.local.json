@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:github.com)",
       "WebFetch(domain:gist.github.com)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebFetch(domain:lua-api.factorio.com)"
     ]
   }
 }

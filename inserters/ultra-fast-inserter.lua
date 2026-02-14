@@ -32,7 +32,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      drain = "1000W"
+      drain = "2000W"
     },
     extension_speed = 20,
     rotation_speed = 20,

@@ -5,5 +5,5 @@
   "author": "Vipervire",
   "description": "Faster collection of stack and filter inserters without any animations for lower CPU usage. Moves items very fast",
   "factorio_version": "2.0",
-	"dependencies": ["base >= 2.0"]
+	"dependencies": ["base >= 2.0", "? space-age"]
 }

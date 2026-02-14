@@ -8,14 +8,15 @@ Ultimate Inserters provides two extremely fast inserter variants for late-game f
 
 ## Features
 
-### 2 Ultra-Fast Inserters
+### 2 Base Ultra-Fast Inserters
 
 1. **Ultimate Inserter**
-   - Ultra-fast stack inserter with filtering capability
+   - Ultra-fast bulk inserter with filtering capability
    - Extension speed: 20 (vs vanilla stack inserter: 0.13)
    - Rotation speed: 20 (vs vanilla stack inserter: 0.13)
    - 5 filter slots
    - Standard inserter reach
+   - Energy: 400J per operation, 1000W drain
 
 2. **Ultimate Long Inserter**
    - Ultra-fast long-reach inserter with filtering capability
@@ -23,6 +24,19 @@ Ultimate Inserters provides two extremely fast inserter variants for late-game f
    - Rotation speed: 20
    - 5 filter slots
    - Extended reach (pickup at -2, drop at +2.2)
+   - Energy: 400J per operation, 1000W drain
+
+### 2 Space Age Stack Inserters (requires Space Age DLC)
+
+3. **Ultimate Stack Inserter** ⭐ NEW
+   - Creates stacks of up to 4 items on belt positions
+   - All features of Ultimate Inserter plus belt stacking
+   - Energy: 500J per operation, 1200W drain (higher due to stacking)
+
+4. **Ultimate Long Stack Inserter** ⭐ NEW
+   - Creates stacks of up to 4 items on belt positions with extended reach
+   - All features of Ultimate Long Inserter plus belt stacking
+   - Energy: 500J per operation, 1200W drain (higher due to stacking)
 
 ### Capabilities
 
@@ -58,12 +72,20 @@ These inserters are extremely powerful but balanced through:
 
 ## Recipes
 
+### Base Inserters
 - **Ultimate inserter**: 5 stack inserters + 15 processing units
 - **Ultimate long inserter**: 5 long-handed inserters + 2 stack inserters + 15 processing units
+
+### Space Age Stack Inserters (requires DLC)
+- **Ultimate stack inserter**: 1 ultimate inserter + 3 stack inserters + 20 processing units
+- **Ultimate long stack inserter**: 1 ultimate long inserter + 3 stack inserters + 20 processing units
 
 ## Compatibility
 
 - **Factorio Version**: 2.0+
+- **Space Age DLC**: Fully compatible (optional)
+  - Automatically adds Space Age science packs to technology requirements if DLC is active
+  - Works on all planets
 - **Multiplayer**: Yes
 - **Save Migration**: Includes migration script from 0.17.x versions
 
