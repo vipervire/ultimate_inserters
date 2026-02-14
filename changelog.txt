@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2026-02-13
+  Major Features:
+    - Updated mod for Factorio 2.0 compatibility
+    - Added Space Age DLC support with automatic detection
+    - Added 2 new Space Age stack inserters that create 4-item stacks on belts
+  Features:
+    - All inserters now have 5 filter slots (filtering built into base inserters in 2.0)
+    - Added custom vector support for near/far item placement (allow_custom_vectors)
+    - Technology automatically includes all Space Age science packs when DLC is active
+    - Space Age stack inserters use max_belt_stack_size=4 for maximum belt throughput
+    - All inserters support circuit network connectivity
+  Changes:
+    - Removed filter inserter variants (no longer needed - filtering is built-in)
+    - Converted from 'stack' property to 'bulk' property for Factorio 2.0
+    - Updated all graphics to remove hr_version (now using single high-res sprites)
+    - Updated circuit connector system to new unified format
+    - Changed technology prerequisite from "advanced-electronics-2" to "processing-unit"
+    - Updated all recipes to new Factorio 2.0 format (results array)
+    - Updated technology icon size from 128 to 256
+    - Balanced energy consumption: base inserters (400J/op, 1000-2000W), stack inserters (500J/op, 4000-5000W)
+  Bugfixes:
+    - Fixed all migration scripts to work with Factorio 2.0
+    - Removed references to deleted filter inserter recipes in old migration scripts
+    - Removed non-functional settings.lua file
+  Info:
+    - Mod now provides 2 base inserters + 2 Space Age stack inserters (4 total with DLC)
+    - Base inserters work without Space Age DLC
+    - Stack inserters only available when Space Age DLC is installed
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+  Info:
+    - Last version compatible with Factorio 0.17
+    - Included 4 inserter variants (2 regular + 2 filter variants)

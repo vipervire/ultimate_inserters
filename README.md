@@ -16,7 +16,7 @@ Ultimate Inserters provides two extremely fast inserter variants for late-game f
    - Rotation speed: 20 (vs vanilla stack inserter: 0.13)
    - 5 filter slots
    - Standard inserter reach
-   - Energy: 400J per operation, 1000W drain
+   - Energy: 400J per operation, 2000W drain
 
 2. **Ultimate Long Inserter**
    - Ultra-fast long-reach inserter with filtering capability
@@ -31,12 +31,12 @@ Ultimate Inserters provides two extremely fast inserter variants for late-game f
 3. **Ultimate Stack Inserter** ⭐ NEW
    - Creates stacks of up to 4 items on belt positions
    - All features of Ultimate Inserter plus belt stacking
-   - Energy: 500J per operation, 1200W drain (higher due to stacking)
+   - Energy: 500J per operation, 4000W drain (higher due to stacking)
 
 4. **Ultimate Long Stack Inserter** ⭐ NEW
    - Creates stacks of up to 4 items on belt positions with extended reach
    - All features of Ultimate Long Inserter plus belt stacking
-   - Energy: 500J per operation, 1200W drain (higher due to stacking)
+   - Energy: 500J per operation, 5000W drain (higher due to stacking)
 
 ### Capabilities
 

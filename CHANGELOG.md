@@ -34,19 +34,38 @@ All notable changes to the Ultimate Inserters mod will be documented in this fil
 - Removed non-functional settings.lua file
 
 ### Features
-The mod now provides **2 ultra-fast inserters** instead of 4:
-- **Ultimate inserter** - Ultra-fast stack inserter with filtering (5 slots)
-- **Ultimate long inserter** - Ultra-fast long-reach inserter with filtering (5 slots)
 
-Both inserters feature:
-- Extension speed: 20 (extremely fast)
-- Rotation speed: 20 (extremely fast)
-- Bulk transfer capability
-- 5 filter slots
-- Circuit network connectivity
-- Custom pickup/drop position support
+The mod now provides **2 base inserters** (4 total with Space Age DLC):
+
+**Base Inserters:**
+- **Ultimate inserter** - Ultra-fast bulk inserter with filtering
+  - Extension/rotation speed: 20 (vs vanilla 0.13)
+  - Energy: 400J per operation, 2000W drain
+  - 5 filter slots, bulk transfer, circuit network
+  - Custom pickup/drop positioning
+
+- **Ultimate long inserter** - Ultra-fast long-reach inserter with filtering
+  - Extension/rotation speed: 20
+  - Extended reach (pickup -2, drop +2.2)
+  - Energy: 400J per operation, 1000W drain
+  - 5 filter slots, bulk transfer, circuit network
+  - Custom pickup/drop positioning
+
+**Space Age Stack Inserters** (requires DLC):
+- **Ultimate stack inserter** - Creates 4-item stacks on belts
+  - All features of Ultimate inserter PLUS belt stacking
+  - `max_belt_stack_size = 4`, `grab_less_to_match_belt_stack = true`
+  - Energy: 500J per operation, 4000W drain (balanced for stacking capability)
+
+- **Ultimate long stack inserter** - Long-reach with belt stacking
+  - All features of Ultimate long inserter PLUS belt stacking
+  - `max_belt_stack_size = 4`, extended reach
+  - Energy: 500J per operation, 5000W drain (balanced for stacking capability)
+
+**Common Features:**
 - No visible animations (performance optimized)
-- High energy consumption (400J per movement/rotation, 1000W drain)
+- Fast-replaceable with other inserters
+- Works on all planets (Space Age compatible)
 
 ---
 
