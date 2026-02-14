@@ -6,7 +6,7 @@ data:extend(
     icon = "__Ultimate_Inserters__/graphics/long-inserter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    stack = true,
+    bulk = true,
     minable =
     {
       hardness = 0.2,
@@ -39,92 +39,50 @@ data:extend(
     fast_replaceable_group = "inserter",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     hand_base_picture = {
-      filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
       height = 1,
-      hr_version = {
-        filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 1,
-        priority = "extra-high",
-        scale = 0.25,
-        width = 1,
-      visible = false
-      },
       priority = "extra-high",
+      scale = 0.25,
       width = 1,
       visible = false
     },
     hand_base_shadow = {
-      filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
       height = 1,
-      hr_version = {
-        filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 1,
-        priority = "extra-high",
-        scale = 0.25,
-        width = 1,
-      visible = false
-      },
       priority = "extra-high",
+      scale = 0.25,
       width = 1,
       visible = false
     },
     hand_closed_picture = {
-      filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
       height = 1,
-      hr_version = {
-        filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 1,
-        priority = "extra-high",
-        scale = 0.25,
-        width = 1,
-      visible = false
-      },
       priority = "extra-high",
+      scale = 0.25,
       width = 1,
       visible = false
     },
     hand_closed_shadow = {
-      filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
       height = 1,
-      hr_version = {
-        filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 1,
-        priority = "extra-high",
-        scale = 0.25,
-        width = 1,
-      visible = false
-      },
       priority = "extra-high",
+      scale = 0.25,
       width = 1,
       visible = false
     },
     hand_open_picture = {
-      filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
       height = 1,
-      hr_version = {
-        filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 1,
-        priority = "extra-high",
-        scale = 0.25,
-        width = 1,
-      visible = false
-      },
       priority = "extra-high",
+      scale = 0.25,
       width = 1,
       visible = false
     },
     hand_open_shadow = {
-      filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
       height = 1,
-      hr_version = {
-        filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 1,
-        priority = "extra-high",
-        scale = 0.25,
-        width = 1,
-      visible = false
-      },
       priority = "extra-high",
+      scale = 0.25,
       width = 1,
       visible = false
     },
@@ -142,9 +100,10 @@ data:extend(
         width = 53
       }
     },
-    circuit_wire_connection_points = circuit_connector_definitions["inserter"].points,
-    circuit_connector_sprites = circuit_connector_definitions["inserter"].sprites,
+    circuit_connector = circuit_connector_definitions["inserter"],
     circuit_wire_max_distance = inserter_circuit_wire_max_distance,
-    default_stack_control_input_signal = inserter_default_stack_control_input_signal
+    default_stack_control_input_signal = inserter_default_stack_control_input_signal,
+    filter_count = 5,
+    allow_custom_vectors = true
   }
 })

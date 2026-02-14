@@ -3,7 +3,7 @@ data:extend({
     type = "technology",
     name = "ultra-fast-inserter",
     icon = "__base__/graphics/technology/stack-inserter.png",
-    icon_size = 128,
+    icon_size = 256,
     effects =
     {
       {
@@ -13,27 +13,19 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "ultra-fast-long-inserter"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "ultra-fast-filter-inserter"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "ultra-fast-long-filter-inserter"
       }
     },
-    prerequisites = {"stack-inserter","advanced-electronics-2"},
+    prerequisites = {"stack-inserter", "processing-unit"},
     unit =
     {
       count = 1000,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1},
-        {"utility-science-pack", 1}
+        {type = "item", name = "automation-science-pack", amount = 1},
+        {type = "item", name = "logistic-science-pack", amount = 1},
+        {type = "item", name = "chemical-science-pack", amount = 1},
+        {type = "item", name = "production-science-pack", amount = 1},
+        {type = "item", name = "utility-science-pack", amount = 1}
       },
       time = 30
     },

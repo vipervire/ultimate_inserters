@@ -6,10 +6,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stack-inserter", 5},
-      {"processing-unit", 15}
+      {type = "item", name = "stack-inserter", amount = 5},
+      {type = "item", name = "processing-unit", amount = 15}
     },
-    result = "ultra-fast-inserter",
+    results = {{type = "item", name = "ultra-fast-inserter", amount = 1}}
   },
   {
     type = "recipe",
@@ -17,33 +17,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"long-handed-inserter", 5},
-      {"stack-inserter", 2},
-      {"processing-unit", 15}
+      {type = "item", name = "long-handed-inserter", amount = 5},
+      {type = "item", name = "stack-inserter", amount = 2},
+      {type = "item", name = "processing-unit", amount = 15}
     },
-    result = "ultra-fast-long-inserter",
-  },
-  {
-    type = "recipe",
-    name = "ultra-fast-filter-inserter",
-    enabled = false,
-    ingredients =
-    {
-      {"stack-filter-inserter", 5},
-      {"processing-unit", 15}
-    },
-    result = "ultra-fast-filter-inserter",
-  },
-  {
-    type = "recipe",
-    name = "ultra-fast-long-filter-inserter",
-    enabled = false,
-    ingredients =
-    {
-      {"long-handed-inserter", 5},
-      {"stack-filter-inserter", 2},
-      {"processing-unit", 15}
-    },
-    result = "ultra-fast-long-filter-inserter",
+    results = {{type = "item", name = "ultra-fast-long-inserter", amount = 1}}
   }
 })

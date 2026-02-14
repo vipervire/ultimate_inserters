@@ -1,8 +1,6 @@
--- add the 4 inserters
+-- add the 2 inserters (both have filtering capability in Factorio 2.0)
 require ("inserters.ultra-fast-inserter")
 require ("inserters.ultra-fast-long-inserter")
-require ("inserters.ultra-fast-filter-inserter")
-require ("inserters.ultra-fast-long-filter-inserter")
 
 require ("item.ultra-fast-inserter")
 require ("recipe.ultra-fast-inserter")

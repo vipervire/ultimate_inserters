@@ -5,9 +5,6 @@ for index, force in pairs(game.forces) do
 
   if technologies["ultra-fast-inserter"].researched then
     recipes["ultra-fast-long-inserter"].enabled = true
-    recipes["ultra-fast-filter-inserter"].enabled = true
-    recipes["ultra-fast-long-filter-inserter"].enabled = true
+    -- Filter inserter recipes removed in 2.0 (filtering now built into all inserters)
   end
-
-  --may need to migrate recipy count
 end
